@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div>
+      <div class="font relative md:h-screen overflow-hidden md:flex items-center justify-center">
+        <div class="background1"></div>
+        <div class="background2"></div>
+        <div
+          class="phone bg-White relative w-[248px] h-[500px] mt-[60px] md:mt-0 mx-auto md:mx-0 md:ml-[140px] 2xl:ml-0 shadow-2xl z-10 rounded-[25px] overflow-hidden"
+        >
+          <div class="m-[10px]">
+            <header class="phone-header">
+              <div class="phone-notch"></div>
+              <div class="flex items-center mt-2 px-2">
+                <img class="block" width="20" height="20" src="images/left-arrow.svg" alt="" />
+                <img class="img" src="images/avatar.jpg" alt="#" />
+                <div class="text-[10px] text-white ml-2">
+                  <h3 class="user">Samuel Green</h3>
+                  <p class="status">Available to Walk</p>
+                </div>
+                <img class="block ml-auto" width="20" height="20" src="images/dots.svg" alt="#" />
+              </div>
+            </header>
+
+            <div class="chat overflow-y-auto bg-Light-Grayish-Violet text-[8.5px] p-2">
+              <div class="mt-[10px]">
+                <p class="text-Moderate-Violet bg-[#efe4f5] py-1 px-2 max-w-[25ch] round">
+                  That sounds great. I’d be happy with that.
+                </p>
+                <p class="text-Moderate-Violet bg-[#efe4f5] py-1 px-2 mt-2 max-w-[25ch] round">
+                  Could you send over some pictures of your dog, please?
+                </p>
+              </div>
+
+              <div>
+                <div class="mt-3 flex gap-2">
+                  <img class="h-[40px] w-[40px] rounded-[10px] ml-auto" src="images/dog-image-1.jpg" alt="" />
+                  <img class="h-[40px] w-[40px] rounded-[10px]" src="images/dog-image-2.jpg" alt="" />
+                  <img class="h-[40px] w-[40px] rounded-[10px]" src="images/dog-image-3.jpg" alt="" />
+                </div>
+                <p class="max-w-[25ch] px-2 py-1 bg-White mt-2 round ml-auto shadow-lg">
+                  Here are a few pictures. She’s a happy girl!
+                </p>
+                <p class="max-w-[25ch] px-2 py-1 mt-2 bg-White round ml-auto shadow-lg">Can you make it?</p>
+              </div>
+
+              <div>
+                <p class="text-Moderate-Violet bg-[#efe4f5] py-1 px-2 max-w-[25ch] mt-3 round">
+                  She looks so happy! The time we discussed works. How long shall I take her out for?
+                </p>
+                <div class="flex gap-2 items-center bg-img py-1 px-2 round mt-2 max-w-[160px] text-White">
+                  <div class="radio"></div>
+                  <p>30 minute walk</p>
+                  <span class="text-[14px] ml-auto">$29</span>
+                </div>
+                <div class="flex gap-2 items-center bg-img mt-2 py-1 px-2 round max-w-[160px] text-White">
+                  <div class="radio"></div>
+                  <p>1 hour walk</p>
+                  <span class="text-[14px] ml-auto">$49 </span>
+                </div>
+              </div>
+
+              <div class="flex items-center px-2 justify-between bg-White rounded-[20px] py-1 shadow-lg mt-[15px] mb-2">
+                <input class="px-2 outline-none" type="text" placeholder="Type a message…" />
+                <img
+                  class="h-[30px] w-[30px] bg-Very-Dark-Desaturated-Violet rounded-full"
+                  src="images/chevron-right.svg"
+                  alt="#"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:ml-[30px] lg:ml-[100px] px-[35px] md:px-0 my-[65px] md:my-0">
+          <h2 class="text-4xl font-bold text-Very-Dark-Desaturated-Violet text-center md:text-left">Simple booking</h2>
+          <p class="md:max-w-[35ch] lg:max-w-[45ch] text-Dark-Grayish-Violet py-8 text-center md:text-left">
+            Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements
+            and make bookings. Once the walk has been completed you can rate your walker and book again all through the
+            chat.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
